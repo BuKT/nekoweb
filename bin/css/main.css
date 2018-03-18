@@ -1,0 +1,53 @@
+
+
+body {
+    background-color: #bbbbbb;
+    font: 16px Times New Roman, sans-serif;
+    text-align: justify;
+}
+#content {
+	background-color: #ffffff;
+	margin: 0 10% 0 10%;
+	width: 80%;
+	text-indent: 20px;
+	max-width: 770px;
+	padding: 70px;
+	white-space: pre-wrap;
+}
+
+
+.italic {
+	font-style: italic;
+}
+
+
+.bold {
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.overlay {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: url(/opacity.png) repeat;
+	display: flex;
+}
+
+.overlay form {
+	display: inline-block;
+	background-color: #aaaaaa;
+	margin: auto;
+}
+
+.image {
+	display: grid;
+}
+img {
+	max-width: 100%;
+}
