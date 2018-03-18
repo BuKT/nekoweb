@@ -12,7 +12,7 @@ $(document).ready(function(){
         var elem = $(".haveInnerContent").first();
         if (!elem || !elem.length) { return; }
         if(elem.offset().top < window.innerHeight + window.pageYOffset) {
-			expandElement(elem)
+			expandElement(elem);
 		}
     }
     $(window).scroll(function() {checkWindow();});
